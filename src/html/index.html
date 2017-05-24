@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font Awesome</title>
+
+    <link href="../css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+
+<style>
+    .content{
+        width: 800px;
+        margin: 10px auto;
+    }
+</style>
+
+    <div class="content">
+        <div>
+            <!-- To increase icon sizes relative to their container,
+                use the fa-lg (33% increase), fa-2x, fa-3x, fa-4x, or fa-5x classes. -->
+            <i class="fa fa-camera-retro"></i>
+            <i class="fa fa-camera-retro fa-lg"></i>
+            <i class="fa fa-camera-retro fa-2x"></i>
+            <i class="fa fa-camera-retro fa-3x"></i>
+            <i class="fa fa-camera-retro fa-4x"></i>
+            <i class="fa fa-camera-retro fa-5x"></i>
+        </div>
+        <div>
+            <i class="fa fa-2x fa-fw fa-home" aria-hidden="true"></i>
+            <i class="fa fa-2x fa-fw fa-book" aria-hidden="true"></i>
+            <i class="fa fa-2x fa-fw fa-pencil" aria-hidden="true"></i>
+            <i class="fa fa-2x fa-fw fa-cog" aria-hidden="true"></i>
+        </div>
+        <div>
+            <!-- Use fa-fw to set icons at a fixed width. Great to use
+                when different icon widths throw off alignment.
+                Especially useful in things like nav lists & list groups. -->
+            <i class="fa fa-2x fa-fw fa-home"></i>
+            <i class="fa fa-2x fa-fw fa-book"></i>
+            <i class="fa fa-2x fa-fw fa-pencil"></i>
+            <i class="fa fa-2x fa-fw fa-cog"></i>
+        </div>
+        <div>
+            <!-- Use fa-ul and fa-li to easily replace default bullets in unordered lists. -->
+            <ul class="fa-ul">
+                <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+                <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+                <li><i class="fa-li fa fa-spinner fa-spin"></i>List icons</li>
+                <li><i class="fa-li fa fa-square"></i>List icons</li>
+            </ul>
+        </div>
+        <div style="overflow: hidden">
+            <!-- Use fa-border and fa-pull-right or fa-pull-left for easy pull quotes or article icons. -->
+            <i class="fa fa-2x fa-border fa-pull-left fa-quote-left" aria-hidden="true"></i>
+            <i class="fa fa-2x fa-border fa-pull-left fa-quote-right" aria-hidden="true"></i>
+        </div>
+        <div>
+            <!-- Use the fa-spin class to get any icon to rotate,
+                and use fa-pulse to have it rotate with 8 steps.
+                Works well with fa-spinner, fa-refresh, and fa-cog. -->
+            <i class="fa fa-2x fa-fw fa-spin fa-spinner"></i><span>Loading...</span>
+            <i class="fa fa-2x fa-fw fa-spin fa-circle-o-notch"></i><span>Loading...</span>
+            <i class="fa fa-2x fa-fw fa-spin fa-refresh"></i><span class="sr-only">Loading...</span>
+            <i class="fa fa-2x fa-fw fa-spin fa-cog"></i><span class="sr-only">Loading...</span>
+            <i class="fa fa-2x fa-fw fa-pulse fa-spinner"></i><span class="sr-only">Loading...</span>
+        </div>
+        <div>
+            <!-- To arbitrarily rotate and flip icons, use the fa-rotate-* and fa-flip-* classes. -->
+            <i class="fa fa-2x fa-shield"></i> normal<br>
+            <i class="fa fa-2x fa-shield fa-rotate-90"></i> fa-rotate-90<br>
+            <i class="fa fa-2x fa-shield fa-rotate-180"></i> fa-rotate-180<br>
+            <i class="fa fa-2x fa-shield fa-rotate-270"></i> fa-rotate-270<br>
+            <i class="fa fa-2x fa-shield fa-flip-horizontal"></i> fa-flip-horizontal<br>
+            <i class="fa fa-2x fa-shield fa-flip-vertical"></i> fa-flip-vertical
+        </div>
+        <div>
+            <!-- To stack multiple icons, use the fa-stack class on the parent,
+            the fa-stack-1x for the regularly sized icon,
+            and fa-stack-2x for the larger icon.
+            fa-inverse can be used as an alternative icon color. -->
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>fa-twitter on fa-square-o<br>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x" style="color: green"></i>
+                <i class="fa fa-flag fa-stack-1x fa-inverse" style="color: red"></i>
+            </span>fa-flag on fa-circle<br>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-square fa-stack-2x"></i>
+                <i class="fa fa-terminal fa-stack-1x fa-inverse" style="color: red"></i>
+            </span>fa-terminal on fa-square<br>
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-camera fa-stack-1x"></i>
+                <i class="fa fa-ban fa-stack-2x" style="color: red"></i>
+            </span>fa-ban on fa-camera
+        </div>
+    </div>
+</body>
+</html>
